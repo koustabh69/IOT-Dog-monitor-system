@@ -29,20 +29,6 @@ void setup(){
   WiFi.begin(ssid, password);
 
 
-
-//  while ( WiFi.status() != WL_CONNECTED ) {
-//    delay ( 500 );
-//    Serial.print ( "." );
-//    Serial.print(WiFi.status());
-//  }
-//
-//  while ( WiFi.status() == WL_CONNECTED ) {
-//    delay ( 500 );
-//    Serial.print ( "yes" );
-//    Serial.print(WiFi.status());
-//  }
-//
-//  timeClient.begin();
 }
 
 void loop() {
